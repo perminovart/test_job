@@ -9,7 +9,7 @@
                         @include('addplate')
                     </main> 
                     @else
-                    <h1 class="blockquote text-center">Для редактирования необходимо авторизоваться</h1>
+                        <h1 class="blockquote text-center">Для редактирования необходимо авторизоваться</h1>
                     @endauth
                 </div>
                 <main class="py-4">

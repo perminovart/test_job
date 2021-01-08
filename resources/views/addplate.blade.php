@@ -1,5 +1,5 @@
 <h1 class="blockquote text-center">Добавить новую пластинку</h1>
-<form method="POST" action="{{ route('addDB') }}">
+<form method="POST" action="{{ route('addPlate') }}">
     @csrf
     <div class="form-group row">
         <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Название пластинки') }}</label>
